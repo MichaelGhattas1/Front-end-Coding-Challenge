@@ -19,6 +19,10 @@ export class AppComponent implements OnInit {
     this.getStartedRepos(1)  
   }
   getStartedRepos(num: number) {
+    if(this.day > 30 )
+    {
+      this.day = 30 
+    } 
     if(this.month == 0){
       this.month=12
     } // handle if in jun to bak to Dec

@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
     } 
     if(this.month == 0){
       this.month=12
+      this.year = this.year -1 
     } // handle if in jun to bak to Dec
     if(this.month == 2 && this.day>28)
     {

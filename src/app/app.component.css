@@ -1,0 +1,10 @@
+.circle
+{
+    border-radius: 0;
+} 
+@media (max-width:576px) {
+    .circle
+    {
+        border-radius: 50%;
+    } 
+}
